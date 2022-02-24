@@ -1,0 +1,76 @@
+// BEGINNING OF CSS RESET
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+// END OF CSS RESET
+
+body {
+    background-color: #ffeedf;
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.main {
+    width: 290px;
+    height: 416px;
+    padding: 27px;
+    background-color: #fff;
+    row-gap: 62px;
+}
+
+.main h2 {
+    font-family: 'EB Garamond', serif;
+    color: #33793f;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.main h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.main p {
+    font-family: 'EB Garamond', serif;
+    color: #999;
+    font-size: 24px;
+}
+
